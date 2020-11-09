@@ -25,21 +25,21 @@
                             <div class="about-page2-content">
                                 <h2>Σχετικα με εμας</h2>
                                 <p>Το Homu Sushi Bar ξεκίνησε με όραμα να προσφέρει υψηλής ποιότητας & γεύσης πιάτα, σε προσιτές τιμές!Η πρώτη μας απόπειρα έγινε σε μια δύσκολη αγορά , αυτής της Γλυφάδας!
-                                    Με υπομονή και προσήλωση στο όραμά μας καταφέραμε σύντομα να γίνουμε το πιο hot spot για sushi στα Νότια Προάστια!Το "πείραμα" επεκτάθηκε σύντομα με το Homu Sushi Bar No2 στο κέντρο της Αθήνας, δίπλα από τον Πύργο Αθηνών.
+                                    Με υπομονή και προσήλωση στο όραμά μας καταφέραμε σύντομα να γίνουμε το πιο hot spot για sushi στα Νότια Προάστια!<br><br>Το "πείραμα" επεκτάθηκε σύντομα με το Homu Sushi Bar No2 στο κέντρο της Αθήνας, δίπλα από τον Πύργο Αθηνών.
                                     Όντας πλέον σίγουροι για την ποιότητα των υπηρεσιών μας και την απήχηση που είχαν τα πιάτα μας συνεχίσαμε με το Homu Sushi Bar No3 στην Βάρη.
                                 </p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-img-holder">
-                                <img src="/storage/homu/homeAbout.jpg" class="img-responsive" alt="about-banner">
+                                <img src="/storage/demo/about.jpg" class="img-responsive" alt="about-banner">
                             </div>
                         </div>
                     </div>
                     <div class="row no-gutters about-page2-inner">
                         <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
                             <div class="about-page2-img-holder">
-                                <img src="/storage/homu/homeAbout.jpg" class="img-responsive" alt="about-banner">
+                                <img src="/storage/demo/about.jpg" class="img-responsive" alt="about-banner">
                             </div>
                         </div>
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -94,7 +94,7 @@
                 <div class="container">
                     <div class="rc-carousel"
                         data-loop="true"
-                        data-items="6"
+                        data-items="5"
                         data-margin="25"
                         data-autoplay="true"
                         data-autoplay-timeout="1000"
@@ -114,11 +114,23 @@
                         data-r-medium="3"
                         data-r-medium-nav="true"
                         data-r-medium-dots="false">
-                        @foreach($galleries as $gallery)
+
                         <div class="brand-area-box">
-                            <a href="/storage/{{$gallery->image_path}}"><img loading="lazy" src="/storage/{{$gallery->image_path}}" alt=""></a>
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
                         </div>
-                        @endforeach
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+
                     </div>
                 </div>
             </div>

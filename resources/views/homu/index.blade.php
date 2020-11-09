@@ -7,7 +7,7 @@
                 <div class="bend niceties preview-1">
                     <div id="ensign-nivoslider-3" class="slides">
                       @foreach($sliders as $slider)
-                        <img src="storage/{{$slider->image_path}}" title="#slider-direction-{{$slider->id}}"/>
+                        <img src="storage/demo/slider.jpg" title="#slider-direction-{{$slider->id}}"/>
                       @endforeach
                     </div>
                     @foreach($sliders as $slider)
@@ -34,7 +34,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
-                           <a href="/storage/{{$daily->image_path}}"><img loading="lazy" class="img-responsive" src="/storage/{{$daily->image_path}}" alt=""></a>
+                           <a href="/storage/{{$daily->image_path}}"><img loading="lazy" class="img-responsive" src="/storage/demo/daily.jpg" alt=""></a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
                             <div class="about1-area-top">
@@ -79,7 +79,7 @@
                             data-r-medium-dots="false">
                             @foreach($specials as $special)
                             <div class="special-dish-box">
-                                <a href="/storage/{{$special->image_path}}"><img loading="lazy" src="/storage/{{$special->image_path}}"></a>
+                                <a href="/storage/{{$special->image_path}}"><img loading="lazy" src="/storage/demo/special.jpg"></a>
                                 <h3 class="title-small title-bar-small-center"><a>{{$special->title}}</a></h3>
                                 <p>{{$special->description}}</p>
                                 <a class="ghost-semi-color-btn">{{$special->price}} €</a>
@@ -105,7 +105,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div class="about-page2-img-holder">
-            <img loading="lazy" src="/storage/{{$photoKitchen->image_path}}" class="img-responsive">
+            <img loading="lazy" src="/storage/demo/kitchen.jpg" class="img-responsive">
           </div>
         </div>
       </div>
@@ -183,7 +183,7 @@
                 <div class="container">
                     <div class="rc-carousel"
                         data-loop="true"
-                        data-items="{{$galleries->count()}}"
+                        data-items="5"
                         data-margin="25"
                         data-autoplay="true"
                         data-autoplay-timeout="1000"
@@ -203,11 +203,23 @@
                         data-r-medium="3"
                         data-r-medium-nav="true"
                         data-r-medium-dots="false">
-                        @foreach($galleries as $gallery)
+                      
                         <div class="brand-area-box">
-                            <a href="/storage/{{$gallery->image_path}}"><img loading="lazy" src="/storage/{{$gallery->image_path}}" alt=""></a>
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
                         </div>
-                        @endforeach
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                      
                     </div>
                 </div>
             </div>

@@ -50,7 +50,7 @@
         <nav class="side-navbar">
           <!-- Sidebar Header-->
           <div class="sidebar-header d-flex align-items-center border-bottom">
-            <div class="avatar"><img src="/storage/admin/logo.png" alt="..." class="img-fluid rounded-circle"></div>
+            <div class="avatar"><i style="font-size: 40px; " class="icon-user"></i></div>
             <div class="title">
               <h1 class="h4">Homu Sushi</h1>
               <strong>Admin</strong>
@@ -59,10 +59,14 @@
 
           <ul class="list-unstyled">
             <li><a href="/admin/homu"> <i class="icon-home"></i>Αρχική </a></li>
-            <li><a href="/admin/homu/mail"> <i class="icon-interface-windows"></i>Mail </a></li>
-            <li><a href="/admin/homu/menu"> <i class="icon-padnote"></i>Menu </a></li>
-            <li><a href="/admin/homu/background/1"> <i class="icon-interface-windows"></i>Φόντο</a></li>
-            <li><a href="/admin/homu/content"> <i class="icon-grid"></i>Περιεχόμενο </a></li>
+            <li><a href="/admin/homu/mail"> <i class="icon-mail"></i>Mail </a></li>
+            <li><a href="/admin/homu/menu"> <i class="icon-bill"></i>Menu </a></li>
+            <li><a href="/admin/homu/background/1"> <i class="icon-screen"></i>Φόντο </a></li>
+              <li><a href="/admin/homu/content/slider"> <i class="icon-interface-windows"></i>Slider </a></li>
+            <li><a href="/admin/homu/content/daily/1"> <i class="icon-page"></i>Daily </a></li>
+            <li><a href="/admin/homu/content/special"> <i class="icon-list"></i>Specials </a></li>
+            <li><a href="/admin/homu/content/photokitchen/1"> <i class="icon-picture"></i>Φωτογραφία / Κουζίνα </a></li>
+            <li><a href="/admin/homu/content/gallery"> <i class="icon-picture"></i>Gallery </a></li>
           </ul>
         </nav>
         <div class="content-inner">

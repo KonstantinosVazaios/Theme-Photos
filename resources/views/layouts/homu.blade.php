@@ -85,7 +85,7 @@
                             <div class="row">
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                                     <div class="logo-area">
-                                        <a href="/"><img style="height: 68px;"class="img-responsive" src="/storage/homu/logo.png" alt="logo"></a>
+                                        <a href="/"><img class="img-responsive" src="/storage/demo/logo.jpg" alt="logo"></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
@@ -148,7 +148,7 @@
             <style>
             .inner-page-banner-area {
               text-align: left;
-              background: url("/storage/{{$background->image_path}}");
+              background: url("/storage/demo/background.jpg");
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
