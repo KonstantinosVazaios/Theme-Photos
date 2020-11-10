@@ -84,5 +84,8 @@ Route::middleware('auth')->group(function () {
   Route::post('admin/homu/content/gallery/create', 'GalleryController@store');
   Route::delete('admin/homu/content/gallery/{gallery}', 'GalleryController@delete');
 
+  //Review
+  Route::get('admin/homu/content/review/{review}', 'ReviewController@index');
+  Route::patch('admin/homu/content/review/{review}', 'ReviewController@update');
 
 });

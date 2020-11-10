@@ -332,7 +332,7 @@ ul {
   content: "";
   height: 3px;
   width: 55px;
-  background: #e7272d;
+  background: var(--primary);
   position: absolute;
   left: 0;
   right: 0;
@@ -809,7 +809,7 @@ ul {
 .owl-controls .owl-prev {
   left: -45px;
   border: 1px solid var(--primary);
-  background: #EFE499!important;
+  background: var(--primary)!important;
   opacity: 1!important;
   font-size: 18px!important;
   margin: 0 5px!important;
@@ -3994,7 +3994,7 @@ ul {
 13. Client Area Styles
 ========================================*/
 .client-area {
-  background: url(img/award1-back.jpg);
+  background: url(/storage/demo/ratings.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -4018,7 +4018,7 @@ ul {
   color: #ffcf3b;
 }
 .client-area .client-box .rating li:last-child i {
-  color: #ffffff;
+  color: #ffcf3b;
 }
 .client-area .client-box p {
   color: #ffffff;
@@ -4045,10 +4045,10 @@ ul {
   margin: 5px 7px 0px 7px;
 }
 .client-area .owl-controls .owl-dot:hover span {
-  background: #ffcdd2 !important;
+  background: var(--secondary) !important;
 }
 .client-area .owl-controls .active span {
-  background: #e7272d !important;
+  background: var(--primary) !important;
 }
 /*======================================
 14. Award 1 Area Styles

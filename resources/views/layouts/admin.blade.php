@@ -33,7 +33,7 @@
               <!-- Navbar Header-->
               <div class="navbar-header">
                 <!-- Navbar Brand --><a href="#" class="navbar-brand d-none d-sm-inline-block">
-                  <div class="brand-text d-none d-lg-inline-block"><span>Homu </span><strong> Sushi</strong></div>
+                  <div class="brand-text d-none d-lg-inline-block"><span>Admin </span><strong> Restaurant</strong></div>
                 <!-- Toggle Button--><a id="toggle-btn" href="#" style="display: none" class="menu-btn active"><span></span><span></span><span></span></a>
               </div>
               <!-- Navbar Menu -->
@@ -52,8 +52,8 @@
           <div class="sidebar-header d-flex align-items-center border-bottom">
             <div class="avatar"><i style="font-size: 40px; " class="icon-user"></i></div>
             <div class="title">
-              <h1 class="h4">Homu Sushi</h1>
-              <strong>Admin</strong>
+              <h1 class="h4">ADMINISTRATOR</h1>
+              <strong>Panel</strong>
             </div>
           </div>
 
@@ -67,6 +67,7 @@
             <li><a href="/admin/homu/content/special"> <i class="icon-list"></i>Specials </a></li>
             <li><a href="/admin/homu/content/photokitchen/1"> <i class="icon-picture"></i>Φωτογραφία / Κουζίνα </a></li>
             <li><a href="/admin/homu/content/gallery"> <i class="icon-picture"></i>Gallery </a></li>
+            <li><a href="/admin/homu/content/review/1"> <i class="icon-check"></i>Review Φόντο </a></li>
           </ul>
         </nav>
         <div class="content-inner">

@@ -108,6 +108,10 @@ class DatabaseSeeder extends Seeder
         'image_path' => 'default'
       ]);
 
+      DB::table('reviews')->insert([
+        'image_path' => 'default'
+      ]);
+
       //Categories
       DB::table('categories')->insert([
         'title' => 'Ορεκτικα',

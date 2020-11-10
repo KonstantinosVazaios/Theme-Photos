@@ -14,6 +14,7 @@ use App\Category;
 use App\Product;
 use App\Message;
 use App\Photokitchen;
+use App\Review;
 use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Mail;
 
@@ -28,7 +29,8 @@ class HomuController extends Controller
       $specials = Special::all();
       $galleries = Gallery::all();
       $photoKitchen = Photokitchen::first();
-      return view('homu.index', compact('sliders','daily', 'specials', 'photoKitchen', 'galleries'));
+      $review = Review::first();
+      return view('homu.index', compact('sliders','daily', 'specials', 'photoKitchen', 'galleries', 'review'));
     }
 
     public function about()
@@ -79,7 +81,7 @@ class HomuController extends Controller
       //Dispatch New Mail Event
       event(new MailNotification($name, $telephone, $email, $message));
 
-      //Retun Back 
+      //Retun Back
       return redirect(url()->previous().'#contact')->with(['status' => 'Το μήνυμα έχει σταλθεί!']);
     }
 

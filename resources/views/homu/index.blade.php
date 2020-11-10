@@ -203,7 +203,7 @@
                         data-r-medium="3"
                         data-r-medium-nav="true"
                         data-r-medium-dots="false">
-                      
+
                         <div class="brand-area-box">
                             <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
                         </div>
@@ -219,10 +219,86 @@
                         <div class="brand-area-box">
                             <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
                         </div>
-                      
+
                     </div>
                 </div>
             </div>
 <!-- Brand Area End Here -->
+<style media="screen">
 
+/*
+.client-area {
+  background: url(/storage/{{$review->image_path}});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+*/
+</style>
+<div class="client-area section-space">
+                <div class="container">
+                    <div class="row">
+                        <div class="rc-carousel"
+                            data-loop="true"
+                            data-items="1"
+                            data-margin="30"
+                            data-autoplay="true"
+                            data-autoplay-timeout="10000"
+                            data-smart-speed="2000"
+                            data-dots="false"
+                            data-nav="true"
+                            data-nav-speed="false"
+                            data-r-x-small="1"
+                            data-r-x-small-nav="false"
+                            data-r-x-small-dots="true"
+                            data-r-x-medium="1"
+                            data-r-x-medium-nav="false"
+                            data-r-x-medium-dots="true"
+                            data-r-small="1"
+                            data-r-small-nav="false"
+                            data-r-small-dots="true"
+                            data-r-medium="1"
+                            data-r-medium-nav="false"
+                            data-r-medium-dots="true">
+                            <div class="client-box">
+                                <a href="#"><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
+                                <ul class="rating">
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                </ul>
+                                <p>Atetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua <br> make a type specimen boonot only five centuries.</p>
+                                <h3 class="title-bar-big-center"><a href="#">Daina Rose</a></h3>
+                            </div>
+                            <div class="client-box">
+                                <a href="#"><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
+                                <ul class="rating">
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+
+                                </ul>
+                                <p>Atetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua <br> make a type specimen boonot only five centuries.</p>
+                                <h3 class="title-bar-big-center"><a href="#">Daina Rose</a></h3>
+                            </div>
+                            <div class="client-box">
+                                <a href="#"><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
+                                <ul class="rating">
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                </ul>
+                                <p>Atetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua <br> make a type specimen boonot only five centuries.</p>
+                                <h3 class="title-bar-big-center"><a href="#">Daina Rose</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 @endsection
