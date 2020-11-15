@@ -24,9 +24,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-content">
                                 <h2>Σχετικα με εμας</h2>
-                                <p>Το Homu Sushi Bar ξεκίνησε με όραμα να προσφέρει υψηλής ποιότητας & γεύσης πιάτα, σε προσιτές τιμές!Η πρώτη μας απόπειρα έγινε σε μια δύσκολη αγορά , αυτής της Γλυφάδας!
-                                    Με υπομονή και προσήλωση στο όραμά μας καταφέραμε σύντομα να γίνουμε το πιο hot spot για sushi στα Νότια Προάστια!<br><br>Το "πείραμα" επεκτάθηκε σύντομα με το Homu Sushi Bar No2 στο κέντρο της Αθήνας, δίπλα από τον Πύργο Αθηνών.
-                                    Όντας πλέον σίγουροι για την ποιότητα των υπηρεσιών μας και την απήχηση που είχαν τα πιάτα μας συνεχίσαμε με το Homu Sushi Bar No3 στην Βάρη.
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br><br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                                 </p>
                             </div>
                         </div>
@@ -45,8 +43,8 @@
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-content">
                                 <h2>Αναπτυσσομαστε</h2>
-                                <p>Το εστιατόριο μας στη Ρόδο ξεκίνησε τη λειτουργία του λίγο πριν το καλοκαίρι του 2019 είναι η απόδειξη οτι ο κόσμος εκτιμάει τη εξαιρετική σχέση τιμής ποιότητας που προσφέρουμε στα καταστήματα Homu Sushi Bar. Εδώ και λίγους μήνες προστέθηκε στην λίστα των περιοχών που εξυπηρετούμε το Χαλάνδρι, αφού θέλαμε να προσφέρουμε και στα βόρια προάστεια την πιο value for money επιλογή sushi! </p>
-                                <p>Εδώ και λίγους μήνες προστέθηκε στην λίστα των περιοχών που εξυπηρετούμε το Χαλάνδρι, αφού θέλαμε να προσφέρουμε και στα βόρια προάστεια την πιο value for money επιλογή sushi! Τέσσερα χρόνια μετά τη λειτουργία του πρώτου μας καταστήματος παραμένουμε πιστοί στο όραμά μας γι' αυτό και οι πελάτες μας παραμένουν πιστοί σε εμάς. Και εάν δεν μας πιστεύετε, μία δοκιμή αρκεί για να σας πείσει.</p>
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful</p>
                             </div>
                         </div>
                     </div>

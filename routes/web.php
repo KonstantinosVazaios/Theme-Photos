@@ -25,7 +25,7 @@ Route::get('/', 'HomuController@index');
 Route::get('/about', 'HomuController@about');
 Route::get('/menu/{category:slug}', 'HomuController@menuCategory');
 Route::get('/contact', 'HomuController@contact');
-Route::post('/contact', 'HomuController@contactMail');
+Route::post('/contact', 'ContactController@mail');
 
 
 // ADMIN

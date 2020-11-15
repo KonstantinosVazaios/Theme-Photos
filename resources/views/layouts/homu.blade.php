@@ -62,8 +62,8 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="header-top-left">
                                         <ul>
-                                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="Tel:21 0963 0042"> 21 0963 0042 </a></li>
-                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto: homusushibar@gmail.com"> homusushibar@gmail.com</a></li>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="Tel:21 0111 1111"> 21 0111 1111 </a></li>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto: email@email.com"> email@email.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@
                                 <div class="footer-box">
                                     <h3 class="title-bar-footer">About Homu</h3>
                                     <div class="footer-about">
-                                        <p>Το Homu Sushi Bar ξεκίνησε με όραμα να προσφέρει υψηλής ποιότητας & γεύσης πιάτα, σε προσιτές τιμές! Η πρώτη μας απόπειρα έγινε σε μια δύσκολη αγορά , αυτής της Γλυφάδας! Με υπομονή και προσήλωση στο όραμά μας καταφέραμε σύντομα να...<br><a href="/about"><span style="padding-top:5px;">Διάβασε Περισσότερα...</span></a> </p>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><a href="/about"><span style="padding-top:5px;">Read More...</span></a> </p>
                                     </div>
                                     <ul class="footer-social">
                                         <li><a target="_blank"href="https://el-gr.facebook.com/homusushibar"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="footer-area-bottom">
                     <div class="container">
-                        <p>&copy; 2020 Homu Sushi Bar All Rights Reserved. &nbsp; - &nbsp;&nbsp; Created by <a target="_blank" href="http://technopos.gr"> Technopos</a>.gr  <span style="font-size: 10px">/ Vazaios Konstantinos</span> </p>
+                        <p>&copy; 2020 Restaurant X All Rights Reserved. &nbsp; - &nbsp;&nbsp; Created by <a target="_blank" href="http://technopos.gr"> Technopos</a>.gr  <span style="font-size: 10px">/ Vazaios Konstantinos</span> </p>
                     </div>
                 </div>
             </footer>

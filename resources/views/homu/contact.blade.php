@@ -16,7 +16,7 @@
             </div>
             <!-- Inner Page Banner Area End Here -->
             <!-- Contact Us Page Area Start Here -->
-            <div class="contact-us-page-area section-space-bottom">
+            <div class="contact-us-page-area">
               <div class="google-map-area">
                     <div id="googleMap" style="height:0px;"></div>
                 </div>
@@ -31,19 +31,11 @@
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                         <h3>Τηλέφωνο</h3>
                                         <p>Γλυφάδα: 2109630042</p>
-                                        <!--<p>Αθήνα: 2114025030</p>
-                                        <p>Βάρη: 2108970650</p>
-                                        <p>Ρόδος: 22411 81244</p>
-                                        <p>Χαλάνδρι: 211 4117016</p>-->
                                     </li>
                                     <li>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                         <h3>Διεύθυνση</h3>
                                         <p>Γλυφάδα - Γούναρη 135</p>
-                                        <!--<p>Αθήνα - Σινώπης 3 </p>
-                                        <p>Βάρη - Λ.Βάρης - Κορωπίου 12</p>
-                                        <p>Ρόδος - Ερυθρού Σταυρού 7</p>
-                                        <p>Χαλάνδρι - Επιδαύρου 53</p>-->
                                     </li>
                                     <li>
                                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
@@ -121,5 +113,50 @@
                 </div>
             </div>
             <!-- Contact Us Page Area End Here -->
+
+            <div class="brand-area">
+                <div class="container">
+                    <div class="rc-carousel"
+                        data-loop="true"
+                        data-items="5"
+                        data-margin="25"
+                        data-autoplay="true"
+                        data-autoplay-timeout="1000"
+                        data-smart-speed="7000"
+                        data-dots="false"
+                        data-nav="true"
+                        data-nav-speed="false"
+                        data-r-x-small="1"
+                        data-r-x-small-nav="false"
+                        data-r-x-small-dots="true"
+                        data-r-x-medium="1"
+                        data-r-x-medium-nav="false"
+                        data-r-x-medium-dots="true"
+                        data-r-small="2"
+                        data-r-small-nav="true"
+                        data-r-small-dots="false"
+                        data-r-medium="3"
+                        data-r-medium-nav="true"
+                        data-r-medium-dots="false">
+
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+                        <div class="brand-area-box">
+                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
 @endsection
