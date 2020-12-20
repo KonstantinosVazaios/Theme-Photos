@@ -14,9 +14,11 @@ class DatabaseSeeder extends Seeder
 
       //ADMIN USER
       DB::table('users')->insert([
-          'email' => 'HomuAdmin',
+          'email' => 'TechnoPos',
           'password' => Hash::make('admin'),
       ]);
+
+
 
       //Background
       DB::table('backgrounds')->insert([
@@ -104,7 +106,10 @@ class DatabaseSeeder extends Seeder
         'image_path' => 'default'
       ]);
 
+      //Kitchen Section
       DB::table('photokitchens')->insert([
+        'title' => 'Lorem Ipsum',
+        'description' => 'Κάθε μας πιάτο φτιάχνεται με επιμέλεια και με υψηλής ποιότητας πρώτες ύλες. Το εκπαιδευμένο μας προσωπικό κουζίνας με γνώσεις και εμπειρία πάνω στην Ασιατική κουζίνα σας εγγυάται όχι μόνο υπέροχα πιάτα αλλά και παραδοσιακές τεχνικές και γεύσεις αναμειγμένες με μοντέρνες πινελιές. Συχνά μας αρέσει βέβαια να πειραματιζόμαστε με συνδυασμούς και γεύσεις και να δημιουργούμε νέα πιάτα ώστε να δίνουμε επιπλέον επιλογές στους πελάτες μας.',
         'image_path' => 'default'
       ]);
 

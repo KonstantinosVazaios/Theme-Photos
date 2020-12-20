@@ -15,6 +15,8 @@ class CreatePhotokitchensTable extends Migration
     {
         Schema::create('photokitchens', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('description');
             $table->string('image_path');
             $table->timestamps();
         });

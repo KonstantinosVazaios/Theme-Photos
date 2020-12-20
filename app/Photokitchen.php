@@ -8,7 +8,7 @@ use \Illuminate\Support\Facades\Storage;
 class Photokitchen extends Model
 {
     protected $fillable = [
-      'image_path'
+      'title', 'description', 'image_path'
     ];
 
     public function deleteImg()
@@ -18,5 +18,5 @@ class Photokitchen extends Model
         Storage::delete($this->image_path);
       }
     }
-    
+
 }

@@ -70,9 +70,9 @@
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="header-top-right">
                                         <ul>
-                                            <li><a target="_blank"href="https://el-gr.facebook.com/homusushibar"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a target="_blank"href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                             <!--<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
-                                            <li><a target="_blank"href="https://www.instagram.com/homusushibar/?hl=el"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                            <li><a target="_blank"href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                             <!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
                                         </ul>
                                     </div>
@@ -171,13 +171,13 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                                 <div class="footer-box">
-                                    <h3 class="title-bar-footer">About Homu</h3>
+                                    <h3 class="title-bar-footer">About X Restaurant</h3>
                                     <div class="footer-about">
                                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><a href="/about"><span style="padding-top:5px;">Read More...</span></a> </p>
                                     </div>
                                     <ul class="footer-social">
-                                        <li><a target="_blank"href="https://el-gr.facebook.com/homusushibar"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                        <li><a target="_blank"href="https://www.instagram.com/homusushibar/?hl=el"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a target="_blank"href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a target="_blank"href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                         <!--<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>-->
                                         <!--<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>-->
                                         <!--<li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>-->
@@ -218,7 +218,7 @@
                 </div>
                 <div class="footer-area-bottom">
                     <div class="container">
-                        <p>&copy; 2020 Restaurant X All Rights Reserved. &nbsp; - &nbsp;&nbsp; Created by <a target="_blank" href="http://technopos.gr"> Technopos</a>.gr  <span style="font-size: 10px">/ Vazaios Konstantinos</span> </p>
+                        <p>&copy; 2020 Restaurant X All Rights Reserved. &nbsp; - &nbsp;&nbsp; Created by <a target="_blank" href="http://technopos.gr"> Technopos.gr</a></p>
                     </div>
                 </div>
             </footer>
