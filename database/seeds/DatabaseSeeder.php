@@ -20,10 +20,16 @@ class DatabaseSeeder extends Seeder
 
 
 
+
+
       //Background
       DB::table('backgrounds')->insert([
         'image_path' => 'default',
       ]);
+
+
+
+
 
       //Slider
       DB::table('sliders')->insert([
@@ -45,6 +51,11 @@ class DatabaseSeeder extends Seeder
           'btnlink' => '/',
       ]);
 
+
+
+
+
+
       //Daily
       DB::table('dailies')->insert([
           'titleBig' => 'Lorem Ispum',
@@ -54,6 +65,13 @@ class DatabaseSeeder extends Seeder
           'btnlink' => '/about',
           'image_path' => 'default'
       ]);
+
+
+
+
+
+
+
 
 
       //SPECIAL DISHES
@@ -106,6 +124,14 @@ class DatabaseSeeder extends Seeder
         'image_path' => 'default'
       ]);
 
+
+
+
+
+
+
+
+
       //Kitchen Section
       DB::table('photokitchens')->insert([
         'title' => 'Lorem Ipsum',
@@ -113,9 +139,59 @@ class DatabaseSeeder extends Seeder
         'image_path' => 'default'
       ]);
 
+
+
+
+
+      //Background Reviews
       DB::table('reviews')->insert([
         'image_path' => 'default'
       ]);
+
+
+
+
+
+
+      // About section
+      DB::table('abouts')->insert([
+        'title_first' => 'ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ',
+        'description_first' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+        'image_path_first' => 'dafault',
+        'title_second' => 'ΑΝΑΠΤΥΣΣΟΜΑΣΤΕ',
+        'description_second' => 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful',
+        'image_path_second' => 'dafault'
+      ]);
+
+
+
+
+
+
+      // Stats section
+      DB::table('stats')->insert([
+        'title' => 'ΧΡΟΝΙΑ ΛΕΙΤΟΥΡΓΙΑΣ',
+        'text' => '4',
+      ]);
+
+      DB::table('stats')->insert([
+        'title' => 'ΙΚΑΝΟΠΟΙΗΜΕΝΟΙ ΠΕΛΑΤΕΣ',
+        'text' => '10.000',
+      ]);
+
+      DB::table('stats')->insert([
+        'title' => 'ΚΑΤΑΣΤΗΜΑΤΑ',
+        'text' => '5',
+      ]);
+
+      DB::table('stats')->insert([
+        'title' => 'ΔΙΑΦΟΡΕΤΙΚΕΣ ΓΕΥΣΕΙΣ',
+        'text' => '100',
+      ]);
+
+
+
+
 
       //Categories
       DB::table('categories')->insert([
@@ -227,183 +303,12 @@ class DatabaseSeeder extends Seeder
         ]);
 
 
-      //products
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Edamame',
-          'description' => 'Φασολάκια σόγιας αλατισμένα',
-          'price' => 3.5,
-          'slug' => 'edamame',
-          'position' => 1,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Edamame spicy',
-          'description' => 'Πικάντικα φασολάκια σόγιας αλατισμένα',
-          'price' => 3.8,
-          'slug' => 'edamame-spicy',
-          'position' => 2,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Steam rice',
-          'description' => 'Ρύζι ατμού με λευκό σουσάμι',
-          'price' => 4,
-          'slug' => 'steam-rice',
-          'position' => 3,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Salmon soup veloute',
-          'description' => 'Σούπα βελουτέ με σολομό, καρότο, σέλινο, πατάτα, κρεμμύδι & ντομάτα',
-          'price' => 6,
-          'slug' => 'salmon-soup-veloute',
-          'position' => 4,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Tartar salmon',
-          'description' => 'Ψιλοκομμένα φιλετάκια σολομού με αβοκάντο, Tobiko, ντομάτα & σως vinaigrette',
-          'price' => 6,
-          'slug' => 'tartar-salmon',
-          'position' => 5,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Tartar tuna',
-          'description' => 'Ψιλοκομμένα φιλέτα τόνου με αβοκάντο, ντομάτα, κόκκινο αυγοτάραχο, Tobiko & vinaigrette sauce',
-          'price' => 6.8,
-          'slug' => 'tartar-tuna',
-          'position' => 6,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Tataki Salmon',
-          'description' => '6 Τεμάχια. Φιλετάκια σολομού ελαφρώς ψημένα με σουσάμι & sauce',
-          'price' => 6,
-          'slug' => 'tataki-salmon',
-          'position' => 7,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Takaki tuna',
-          'description' => '6 Τεμάχια. Φιλέτα τόνου ελαφρώς ψημένα με σουσάμι & sauce',
-          'price' => 6.8,
-          'slug' => 'takaki-tuna',
-          'position' => 8,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Springs rolls',
-          'description' => '3 Τεμάχια. Ψιλοκομμένα λαχανικά τυλιγμένα με τραγανή ζύμη με συνοδευτική sweet chili sauce',
-          'price' => 4.8,
-          'slug' => 'spring-rolls',
-          'position' => 9,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Chizu Wonton',
-          'description' => '4 Τεμάχια. Τραγανό φύλλο Wonton με τυρί κρέμα & surimi (συνθετικό καβούρι)',
-          'price' => 6,
-          'slug' => 'chizu-wonton',
-          'position' => 10,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Tempura shrimp appetizer',
-          'description' => '4 Τεμάχια. Γαρίδα tempura με συνοδευτική sweet chili sauce',
-          'price' => 7,
-          'slug' => 'tempura-shrimp-appetizer',
-          'position' => 11,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Sweet & Sour Chicken',
-          'description' => 'Παναρισμένα κομμάτια κοτόπουλο με καρότο, κρεμμύδι, ανανά, πράσινες & κόκκινες πιπεριές',
-          'price' => 7.2,
-          'slug' => 'sweet-sour-chicken',
-          'position' => 12,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Sweet & Sour Shrimp',
-          'description' => 'Παναρισμένα κομμάτια γαρίδας με καρότο, κρεμμύδι, ανανά, πράσινες & κόκκινες πιπεριές',
-          'price' => 9.2,
-          'slug' => 'sweet-sour-shrimp',
-          'position' => 13,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce wasabi mayo',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-wasabi-mayo',
-          'position' => 14,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce teriyaki',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-teriyaki',
-          'position' => 15,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce spicy mayo',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-spicy-mayo',
-          'position' => 16,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce black garlic mayo',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-black-garlic-mayo',
-          'position' => 17,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce Spicy',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-spicy',
-          'position' => 18,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce τυρί κρέμα',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-tiri-krema',
-          'position' => 19,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce Sweet Chili',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-sweet-chili',
-          'position' => 20,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce sriracha',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-sriracha',
-          'position' => 21,
-      ]);
-      DB::table('products')->insert([
-          'category_id' => 1,
-          'title' => 'Dip sauce γλυκόξινη',
-          'description' => '',
-          'price' => 1,
-          'slug' => 'dip-sauce-ghlikoksini',
-          'position' => 22,
-      ]);
+
+
+
+
+
+
 
 
 

@@ -34,6 +34,7 @@ Route::middleware('auth')->group(function () {
   Route::get('admin/homu/mail', 'MessagesController@index');
   Route::get('admin/homu/menu', 'CategoriesController@index');
   Route::get('admin/homu/content', 'ContentController@index');
+  Route::get('admin/homu/about', 'ContentController@about');
 
   //Mails
   Route::get('admin/homu/mail/{mail}', 'MessagesController@show');
@@ -88,4 +89,12 @@ Route::middleware('auth')->group(function () {
   Route::get('admin/homu/content/review/{review}', 'ReviewController@index');
   Route::patch('admin/homu/content/review/{review}', 'ReviewController@update')->middleware('can:make-actions');
 
+  //About Section
+  Route::get('admin/homu/about/story', 'AboutController@index');
+  Route::patch('admin/homu/about/{story}', 'AboutController@update')->middleware('can:make-actions');
+
+  //Stats Section - About
+  Route::get('admin/homu/about/stats', 'StatsController@index');
+  Route::get('admin/homu/about/stats/{stat}', 'StatsController@show');
+  Route::patch('admin/homu/about/stats/{stat}', 'StatsController@update')->middleware('can:make-actions');
 });

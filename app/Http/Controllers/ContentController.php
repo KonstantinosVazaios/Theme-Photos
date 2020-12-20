@@ -9,7 +9,11 @@ class ContentController extends Controller
 
     public function index()
     {
-      return view('admin.content.index');
+      return view('admin.content.homepage');
     }
 
+    public function about()
+    {
+      return view('admin.content.aboutpage');
+    }
 }

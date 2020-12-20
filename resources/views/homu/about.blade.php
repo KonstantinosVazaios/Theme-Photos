@@ -20,6 +20,17 @@
             <div class="about-page2-area section-space">
 
                 <div class="container">
+
+                  <!--photo mobile-->
+                  <div class="row no-gutters about-page2-inner">
+                      <div class="hidden-lg hidden-md hidden-sm col-xs-12">
+                          <div class="about-page2-img-holder">
+                              <img src="/storage/demo/about.jpg" class="img-responsive" alt="about-banner">
+                          </div>
+                      </div>
+                  </div>
+                  <!--photo mobile-->
+
                     <div class="row no-gutters about-page2-inner">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-content">
@@ -55,6 +66,7 @@
             <div class="award1-area">
                 <div class="container">
                     <div class="row">
+
                       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         <div class="award1-area-box">
                           <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -62,6 +74,7 @@
                           <p>Χρόνια Λειτουργίας</p>
                         </div>
                       </div>
+
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="award1-area-box">
                                 <i class="fa fa-smile-o" aria-hidden="true"></i>
@@ -69,6 +82,7 @@
                                 <p>Ικανοποιημένοι πελάτες</p>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                             <div class="award1-area-box">
                                 <i class="fa fa-heart-o" aria-hidden="true"></i>
@@ -76,6 +90,7 @@
                                 <p>Καταστήματα</p>
                             </div>
                         </div>
+
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                           <div class="award1-area-box">
                             <i class="fa fa-smile-o" aria-hidden="true"></i>
@@ -83,6 +98,7 @@
                             <p>Διαφορετικές Γεύσεις</p>
                           </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

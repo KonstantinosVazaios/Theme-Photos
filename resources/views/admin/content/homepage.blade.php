@@ -4,7 +4,7 @@
 <!--none-->
 @endsection
 
-@section('title', 'Περιεχόμενο')
+@section('title', 'Περιεχόμενο / Αρχική')
 
 @section('content')
 <section class="dashboard-counts no-padding-bottom">

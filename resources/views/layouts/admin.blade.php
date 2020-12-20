@@ -62,7 +62,8 @@
             <li><a href="/admin/homu/mail"> <i class="icon-mail"></i>Mail </a></li>
             <li><a href="/admin/homu/menu"> <i class="icon-bill"></i>Menu </a></li>
             <li><a href="/admin/homu/background/1"> <i class="icon-screen"></i>Φόντο</a></li>
-            <li><a href="/admin/homu/content"> <i class="icon-grid"></i>Περιεχόμενο </a></li>
+            <li><a href="/admin/homu/content"> <i class="icon-grid"></i>Περιεχόμενο / Αρχική </a></li>
+            <li><a href="/admin/homu/about"> <i class="icon-check"></i>Περιεχόμενο / About </a></li>
           </ul>
         </nav>
         <div class="content-inner">
