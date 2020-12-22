@@ -13,10 +13,21 @@ class About extends Model
 
     public function deleteImg($position)
     {
-      $fileExists = Storage::exists($this->image_path_ + $position);
-      if ($fileExists) {
-        Storage::delete($this->image_path_ + position);
+      if ($position === "first") {
+        $fileExists = Storage::exists($this->image_path_first);
+        if ($fileExists) {
+          Storage::delete($this->image_path_first);
+        }
       }
+      else {
+        $fileExists = Storage::exists($this->image_path_second);
+        if ($fileExists) {
+          Storage::delete($this->image_path_second);
+        }
+      }
+
     }
+
+    
 
 }

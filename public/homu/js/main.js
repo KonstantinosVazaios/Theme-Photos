@@ -61,7 +61,7 @@
     /*-------------------------------------
      jQuery MeanMenu initialization
      --------------------------------------*/
-    $('nav#dropdown').meanmenu({siteLogo: "<a ref='/' class='logo-mobile-menu'><img src='/storage/homu/mobileLogo.png' /></a>"});
+    $('nav#dropdown').meanmenu({siteLogo: "<a ref='/' class='logo-mobile-menu'><img src='/storage/demo/logo.jpg' /></a>"});
 
     /*-------------------------------------
      Wow js Initiation

@@ -7,7 +7,7 @@
                 <div class="bend niceties preview-1">
                     <div id="ensign-nivoslider-3" class="slides">
                       @foreach($sliders as $slider)
-                        <img src="storage/demo/slider.jpg" title="#slider-direction-{{$slider->id}}"/>
+                        <img src="/storage/{{$slider->image_path}}" title="#slider-direction-{{$slider->id}}"/>
                       @endforeach
                     </div>
                     @foreach($sliders as $slider)
@@ -34,7 +34,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
-                           <a href="/storage/{{$daily->image_path}}"><img loading="lazy" class="img-responsive" src="/storage/demo/daily.jpg" alt=""></a>
+                           <a href="/storage/{{$daily->image_path}}"><img loading="lazy" class="img-responsive" src="/storage/{{$daily->image_path}}" alt=""></a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
                             <div class="about1-area-top">
@@ -79,7 +79,7 @@
                             data-r-medium-dots="false">
                             @foreach($specials as $special)
                             <div class="special-dish-box">
-                                <a href="/storage/{{$special->image_path}}"><img loading="lazy" src="/storage/demo/special.jpg"></a>
+                                <a href="/storage/{{$special->image_path}}"><img loading="lazy" src="/storage/{{$special->image_path}}"></a>
                                 <h3 class="title-small title-bar-small-center"><a>{{$special->title}}</a></h3>
                                 <p>{{$special->description}}</p>
                                 <a class="ghost-semi-color-btn">{{$special->price}} €</a>
@@ -98,14 +98,13 @@
       <div class="row no-gutters about-page2-inner">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div class="about-page2-content">
-            <h2>Η κουζινα μας</h2>
-            <p>Κάθε μας πιάτο φτιάχνεται με επιμέλεια και με υψηλής ποιότητας πρώτες ύλες. Το εκπαιδευμένο μας προσωπικό κουζίνας με γνώσεις και εμπειρία πάνω στην Ασιατική κουζίνα σας εγγυάται όχι μόνο υπέροχα πιάτα αλλά και παραδοσιακές τεχνικές και γεύσεις αναμειγμένες με μοντέρνες πινελιές.</p>
-            <p>Συχνά μας αρέσει βέβαια να πειραματιζόμαστε με συνδυασμούς και γεύσεις και να δημιουργούμε νέα πιάτα ώστε να δίνουμε επιπλέον επιλογές στους πελάτες μας.</p>
+            <h2>{{$photoKitchen->title}}</h2>
+            <p>{{$photoKitchen->description}}</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div class="about-page2-img-holder">
-            <img loading="lazy" src="/storage/demo/kitchen.jpg" class="img-responsive">
+            <img loading="lazy" src="/storage/{{$photoKitchen->image_path}}" class="img-responsive">
           </div>
         </div>
       </div>
@@ -204,21 +203,11 @@
                         data-r-medium-nav="true"
                         data-r-medium-dots="false">
 
+                        @foreach($galleries as $gallery)
                         <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                            <a href=""><img loading="lazy" src="/storage/{{$gallery->image_path}}" alt=""></a>
                         </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
+                        @endforeach
 
                     </div>
                 </div>
@@ -235,7 +224,7 @@
 }
 */
 </style>
-<div class="client-area section-space">
+<div style="background: url('/storage/{{$review->image_path}}');" class="client-area section-space">
                 <div class="container">
                     <div class="row">
                         <div class="rc-carousel"

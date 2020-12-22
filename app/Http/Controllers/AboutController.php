@@ -27,14 +27,14 @@ class AboutController extends Controller
       //First Image
       if ($request->has('image_path_first')) {
 
-        $about->deleteImg(first);
+        $story->deleteImg('first');
 
         $imagePathFirst = $request->file('image_path_first')->store('about');
 
-        $imageFirst = Image::make(public_path("storage/{$imagePath}"))->resize(571, 530);
+        $imageFirst = Image::make(public_path("storage/{$imagePathFirst}"))->resize(571, 530);
         $imageFirst->save();
 
-        $about->update([
+        $story->update([
           'image_path_first' => $imagePathFirst,
         ]);
 
@@ -43,20 +43,20 @@ class AboutController extends Controller
       //Second Image
       if ($request->has('image_path_second')) {
 
-        $about->deleteImg(second);
+        $story->deleteImg('second');
 
         $imagePathSecond = $request->file('image_path_second')->store('about');
 
-        $imageSecond = Image::make(public_path("storage/{$imagePath}"))->resize(571, 530);
+        $imageSecond = Image::make(public_path("storage/{$imagePathSecond}"))->resize(571, 530);
         $imageSecond->save();
 
-        $about->update([
+        $story->update([
           'image_path_second' => $imagePathSecond,
         ]);
 
       }
 
-      $about->update([
+      $story->update([
         'title_first' => $validated['title_first'],
         'description_first' => $validated['description_first'],
         'title_second' => $validated['title_second'],

@@ -25,7 +25,7 @@
                   <div class="row no-gutters about-page2-inner">
                       <div class="hidden-lg hidden-md hidden-sm col-xs-12">
                           <div class="about-page2-img-holder">
-                              <img src="/storage/demo/about.jpg" class="img-responsive" alt="about-banner">
+                              <img src="/storage/{{$about->image_path_second}}" class="img-responsive" alt="about-banner">
                           </div>
                       </div>
                   </div>
@@ -34,28 +34,28 @@
                     <div class="row no-gutters about-page2-inner">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-content">
-                                <h2>Σχετικα με εμας</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries<br><br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                                </p>
+                                <h2>{{ $about->title_first }}</h2>
+                                <p>{{ $about->description_first }}</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-img-holder">
-                                <img src="/storage/demo/about.jpg" class="img-responsive" alt="about-banner">
+                                <img src="/storage/{{$about->image_path_first}}" class="img-responsive" alt="about-banner">
                             </div>
                         </div>
                     </div>
+
+
                     <div class="row no-gutters about-page2-inner">
                         <div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
                             <div class="about-page2-img-holder">
-                                <img src="/storage/demo/about.jpg" class="img-responsive" alt="about-banner">
+                                <img src="/storage/{{$about->image_path_second}}" class="img-responsive" alt="about-banner">
                             </div>
                         </div>
                          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="about-page2-content">
-                                <h2>Αναπτυσσομαστε</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful</p>
+                              <h2>{{$about->title_second}}</h2>
+                              <p>{{$about->description_second}}</p>
                             </div>
                         </div>
                     </div>
@@ -66,39 +66,15 @@
             <div class="award1-area">
                 <div class="container">
                     <div class="row">
-
+                      @foreach($stats as $stat)
                       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                         <div class="award1-area-box">
                           <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          <h2 class="about-counter" data-num="2030">4</h2>
-                          <p>Χρόνια Λειτουργίας</p>
+                          <h2 class="about-counter" data-num="2030">{{$stat->text}}</h2>
+                          <p>{{$stat->title}}</p>
                         </div>
                       </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <div class="award1-area-box">
-                                <i class="fa fa-smile-o" aria-hidden="true"></i>
-                                <h2 class="about-counter" data-num="5030">10.000+</h2>
-                                <p>Ικανοποιημένοι πελάτες</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                            <div class="award1-area-box">
-                                <i class="fa fa-heart-o" aria-hidden="true"></i>
-                                <h2 class="about-counter" data-num="5030">5</h2>
-                                <p>Καταστήματα</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                          <div class="award1-area-box">
-                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                            <h2 class="about-counter" data-num="3030">100+</h2>
-                            <p>Διαφορετικές Γεύσεις</p>
-                          </div>
-                        </div>
-                        
+                      @endforeach
                     </div>
                 </div>
             </div>
@@ -129,21 +105,11 @@
                         data-r-medium-nav="true"
                         data-r-medium-dots="false">
 
+                        @foreach($galleries as $gallery)
                         <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
+                            <a href=""><img loading="lazy" src="/storage/{{$gallery->image_path}}" alt=""></a>
                         </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
-                        <div class="brand-area-box">
-                            <a href="/storage/demo/gallery.jpg"><img loading="lazy" src="/storage/demo/gallery.jpg" alt=""></a>
-                        </div>
+                        @endforeach
 
                     </div>
                 </div>

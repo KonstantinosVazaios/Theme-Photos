@@ -15,6 +15,8 @@ use App\Product;
 use App\Message;
 use App\Photokitchen;
 use App\Review;
+use App\About;
+use App\Stat;
 use App\Mail\ContactMail;
 
 class HomuController extends Controller
@@ -35,8 +37,10 @@ class HomuController extends Controller
     public function about()
     {
       //Get all Galleries for Image-Gallery
+      $about = About::first();
+      $stats = Stat::all();
       $galleries = Gallery::all();
-      return view('homu.about', compact('galleries'));
+      return view('homu.about', compact('about', 'stats', 'galleries'));
     }
 
     public function menuCategory(Category $category)

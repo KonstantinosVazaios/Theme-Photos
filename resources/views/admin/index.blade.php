@@ -25,7 +25,7 @@
                 <div class="mt-3 col-l-3 col-sm-12">
                   <div class="item d-flex align-items-center">
                     <div class="icon bg-violet"><i class="icon-bill"></i></div>
-                    <div class="title"><span><a href="/admin/homu/menu">Κατηγορίες Προϊόντων</a></span>
+                    <div class="title"><span><a href="/admin/homu/menu">Menu</a></span>
                     </div>
                   </div>
                 </div>
@@ -61,6 +61,6 @@
               </div>
             </div>
 
-            
+
           </section>
 @endsection

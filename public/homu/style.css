@@ -3799,7 +3799,7 @@ ul {
 ========================================*/
 .client-reviews-area {
   position: relative;
-  background: url(img/client/back.png);
+  /*background: url(img/client/back.png);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3994,9 +3994,11 @@ ul {
 13. Client Area Styles
 ========================================*/
 .client-area {
-  background: url(/storage/demo/ratings.jpg);
-  background-size: cover;
-  background-position: center;
+  margin-top: 20px;
+  border-top: 2px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+  /*background: url(/storage/demo/ratings.jpg);*/
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .client-area .client-box {

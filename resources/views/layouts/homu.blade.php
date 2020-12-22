@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Homu Sushi Bar</title>
+        <title>TechnoPOS Theme | Restaurants</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -148,7 +148,7 @@
             <style>
             .inner-page-banner-area {
               text-align: left;
-              background: url("/storage/demo/background.jpg");
+              background: url("/storage/{{$background->image_path}}");
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
@@ -173,7 +173,7 @@
                                 <div class="footer-box">
                                     <h3 class="title-bar-footer">About X Restaurant</h3>
                                     <div class="footer-about">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><a href="/about"><span style="padding-top:5px;">Read More...</span></a> </p>
+                                        <p>{{Str::limit($about->description_first, 170)}}<br><a href="/about"><span style="padding-top:5px;">Read More...</span></a> </p>
                                     </div>
                                     <ul class="footer-social">
                                         <li><a target="_blank"href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
