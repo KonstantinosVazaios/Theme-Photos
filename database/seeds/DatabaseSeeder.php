@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
 
       //ADMIN USER
       DB::table('users')->insert([
-          'email' => 'TechnoPos',
+          'email' => 'technopos',
           'password' => Hash::make('admin'),
       ]);
 
@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
 
       //Background
       DB::table('backgrounds')->insert([
-        'image_path' => 'default',
+        'image_path' => 'demo/background.jpg',
       ]);
 
 
@@ -37,18 +37,21 @@ class DatabaseSeeder extends Seeder
           'content' => 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi!',
           'btntext' => 'Order Now',
           'btnlink' => '/',
+          'image_path' => 'demo/slider.jpg'
       ]);
       DB::table('sliders')->insert([
           'title' => 'Sed ut perspiciatis unde omnis',
           'content' => 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
           'btntext' => 'Order Now',
           'btnlink' => '/',
+          'image_path' => 'demo/slider.jpg'
       ]);
       DB::table('sliders')->insert([
           'title' => 'At vero eos et accusamus',
           'content' => 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur',
           'btntext' => 'Order Now',
           'btnlink' => '/',
+          'image_path' => 'demo/slider.jpg'
       ]);
 
 
@@ -63,7 +66,7 @@ class DatabaseSeeder extends Seeder
           'description' => 'consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
           'btntext'=> 'READ MORE',
           'btnlink' => '/about',
-          'image_path' => 'default'
+          'image_path' => 'demo/daily.jpg'
       ]);
 
 
@@ -79,49 +82,49 @@ class DatabaseSeeder extends Seeder
         'title' => 'California roll',
         'description' => '8 Τεμάχια. Ρολό με surimi (συνθετικό καβούρι), αγγούρι, αβοκάντο, λευκό σουσάμι & wasabi μαγιονέζα',
         'price' => 4.5,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
       DB::table('specials')->insert([
         'title' => 'Shrimp tempura roll',
         'description' => '8 Τεμάχια. Ρολό με γαρίδα tempura, λευκό σουσάμι & μαγιονέζα wasabi',
         'price' => 6.5,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
       DB::table('specials')->insert([
         'title' => 'Μendaki Noodles με κοτόπουλο',
         'description' => 'Με καρότο, κρεμμύδι, λάχανο, πράσινες & κόκκινες πιπεριές',
         'price' => 7.5,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
       DB::table('specials')->insert([
         'title' => 'Salmon teriyaki roll',
         'description' => '8 Τεμάχια. Ρολό με σολομό, αβοκάντο, αγγούρι, teriyaki sauce & λευκό σουσάμι',
         'price' => 5.5,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
       DB::table('specials')->insert([
         'title' => 'Flying chicken special roll',
         'description' => '8 Τεμάχια. Με σπαράγγια Tempura, κοτόπουλο, φρέσκο κρεμμύδι, αβοκάντο, Tobiko κόκκινο, Tobiko μαύρο & Teriyaki sauce',
         'price' => 7.5,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
       DB::table('specials')->insert([
         'title' => 'Dynamite roll',
         'description' => '8 Τεμάχια. Με γαρίδα tempura, αβοκάντο, αγγούρι, sweet chili mayo sauce, σχοινόπρασο & μαύρο αυγοτάραχο',
         'price' => 7.5,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
       DB::table('specials')->insert([
         'title' => 'Crisp Roll maki',
         'description' => '8 Τεμάχια. Με σολομό, αβοκάντο, κόκκινο αυγοτάραχο, sauce, panko bread crumbs & τυρί κρέμα',
         'price' => 7,
-        'image_path' => 'default'
+        'image_path' => 'demo/special.jpg'
       ]);
 
 
@@ -136,7 +139,7 @@ class DatabaseSeeder extends Seeder
       DB::table('photokitchens')->insert([
         'title' => 'Lorem Ipsum',
         'description' => 'Κάθε μας πιάτο φτιάχνεται με επιμέλεια και με υψηλής ποιότητας πρώτες ύλες. Το εκπαιδευμένο μας προσωπικό κουζίνας με γνώσεις και εμπειρία πάνω στην Ασιατική κουζίνα σας εγγυάται όχι μόνο υπέροχα πιάτα αλλά και παραδοσιακές τεχνικές και γεύσεις αναμειγμένες με μοντέρνες πινελιές. Συχνά μας αρέσει βέβαια να πειραματιζόμαστε με συνδυασμούς και γεύσεις και να δημιουργούμε νέα πιάτα ώστε να δίνουμε επιπλέον επιλογές στους πελάτες μας.',
-        'image_path' => 'default'
+        'image_path' => 'demo/kitchen.jpg'
       ]);
 
 
@@ -145,7 +148,7 @@ class DatabaseSeeder extends Seeder
 
       //Background Reviews
       DB::table('reviews')->insert([
-        'image_path' => 'default'
+        'image_path' => 'demo/background.jpg'
       ]);
 
 
@@ -157,10 +160,10 @@ class DatabaseSeeder extends Seeder
       DB::table('abouts')->insert([
         'title_first' => 'ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ',
         'description_first' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
-        'image_path_first' => 'dafault',
+        'image_path_first' => 'demo/about.jpg',
         'title_second' => 'ΑΝΑΠΤΥΣΣΟΜΑΣΤΕ',
         'description_second' => 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful',
-        'image_path_second' => 'dafault'
+        'image_path_second' => 'demo/about.jpg'
       ]);
 
 

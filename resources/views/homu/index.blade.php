@@ -250,7 +250,7 @@
                             data-r-medium-nav="false"
                             data-r-medium-dots="true">
                             <div class="client-box">
-                                <a href="#"><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
+                                <a><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
                                 <ul class="rating">
                                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -262,7 +262,7 @@
                                 <h3 class="title-bar-big-center"><a href="#">Daina Rose</a></h3>
                             </div>
                             <div class="client-box">
-                                <a href="#"><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
+                                <a><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
                                 <ul class="rating">
                                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -275,7 +275,7 @@
                                 <h3 class="title-bar-big-center"><a href="#">Daina Rose</a></h3>
                             </div>
                             <div class="client-box">
-                                <a href="#"><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
+                                <a><img src="/storage/demo/client.png" class="img-responsive" alt="client"></a>
                                 <ul class="rating">
                                     <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                     <li><i class="fa fa-star" aria-hidden="true"></i></li>

@@ -19,7 +19,7 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         if (Auth::guard($guard)->check()) {
-            return redirect('/admin/homu');
+            return redirect('/admin/homu/mail');
         }
 
         return $next($request);

@@ -30,7 +30,6 @@ Route::post('/contact', 'ContactController@mail');
 // ADMIN
 Route::middleware('auth')->group(function () {
 
-  Route::get('admin/homu', 'AdminController@index');
   Route::get('admin/homu/mail', 'MessagesController@index');
   Route::get('admin/homu/menu', 'CategoriesController@index');
   Route::get('admin/homu/content', 'ContentController@index');
